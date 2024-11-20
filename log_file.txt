@@ -1,0 +1,8 @@
+2024-11-05 12:00:01 INFO User logged in
+2024-11-05 12:05:45 WARNING Disk space low
+2024-11-05 12:10:30 ERROR Unable to connect to database
+2024-11-05 12:15:10 INFO User logged out
+2024-11-05 12:15:10 INFO User logged out2024-11-05 12:15:10 INFO User logged out
+INFO: All systems are running smoothly
+2024-11-05 12:10:30 ERROR Unable to connect to database
+INFO: All systems are running smoothly
