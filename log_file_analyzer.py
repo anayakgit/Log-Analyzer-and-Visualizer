@@ -1,7 +1,7 @@
 import re
 import matplotlib.pyplot as plt
 
-# Log file processing handler
+#log file processing handler
 class LogProcessor:
     def __init__(self, file_path):
         self.file_path = file_path
@@ -18,7 +18,6 @@ class LogProcessor:
             self.info_count += 1
 
     def process_log_file(self):
-        # Open and read the log file
         with open(self.file_path, 'r') as file:
             lines = file.readlines()
             for line in lines:
@@ -42,11 +41,11 @@ class LogProcessor:
         plt.ylabel('Count')
         plt.show()
 
-# Main function for processing the log file
+#main function
 def main():
-    log_file_path = 'log_file.txt'  # Ensure this is the correct file path
+    log_file_path = 'logAnalyzerAndVisualizer\log_file.txt' 
     log_processor = LogProcessor(log_file_path)
-    log_processor.process_log_file()  # Process the log file and display summary
+    log_processor.process_log_file()  #process the log file and display summary
 
 if __name__ == "__main__":
     main()
